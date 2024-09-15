@@ -1,0 +1,72 @@
+.Backck {
+  height: 800px;
+  width: 100%; /* Increased width for smaller screens */
+  /* max-width: 30%; */
+  align-items: center;
+  border: 2px solid white;
+  /* border: 2px solid rgb(28, 27, 27); */
+  background-image: url("../images/Frame\ 496.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12%;
+  -webkit-box-shadow: 0px -1px 69px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 69px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 69px -10px rgba(0, 0, 0, 0.75);
+}
+
+.bx1 {
+  height: 370px; /* Fixed height for consistency */
+  width: 60%; /* Width relative to parent container */ /* Background image */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-position: center;
+}
+
+.bx2 {
+  height: 380px; /* Fixed height for consistency */
+  width: 98%; /* Width relative to parent container */ /* Background image */
+  border-radius: 12%;
+  /* border: 2px solid black; */
+}
+.bx2 h1 {
+  padding-top: 20px;
+}
+.bx2 p {
+  text-align: center;
+}
+.bt {
+  padding-left: 10px;
+}
+.bt button {
+  height: 70%;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  /* margin-bottom: 500px; */
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  /* background-color: blue; */
+  background-color: black;
+}
+
+@media (min-width: 768px) {
+  .Backck {
+    height: 850px; /* Adjust height as needed */
+    max-width: 30%; /* Adjust width for larger screens */
+    width: 100%; /* Full width for smaller screens */
+    margin: 3% auto; /* Center the container horizontally */
+    background-image: url("../images/Frame\ 496.png");
+    background-size: cover; /* Cover the container with the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    border-radius: 12%; /* Rounded corners */
+    backdrop-filter: blur(20px); /* Blur the background */
+    box-shadow: 10px 9px 98px -13px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    box-sizing: border-box; /* Include padding and border in width and height */
+  }
+}

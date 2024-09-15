@@ -1,0 +1,107 @@
+.translator-container {
+  height: 900px;
+  width: 100%; /* Increased width for smaller screens */
+  /* max-width: 30%; */
+  align-items: center;
+  border: 2px solid white;
+  /* border: 2px solid rgb(28, 27, 27); */
+  background-image: url("../images/FrameTranslate.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12%;
+  -webkit-box-shadow: 0px -1px 69px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 69px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px -1px 69px -10px rgba(0, 0, 0, 0.75);
+}
+.translator-container h1 {
+  height: 30%;
+  width: 100%;
+  color: white;
+  border-radius: 15px;
+  text-align: center;
+  align-items: center;
+  border: none;
+  /* border: 2px solid black; */
+  padding-top: 20%;
+  /* border: 2px solid black; */
+
+  /* font-family: sans-serif; */
+  /* text-align: center; */
+}
+.in {
+  height: 500px;
+  /* border: 2px solid black; */
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  /* padding: 100px; */
+}
+.ne {
+  height: 30px;
+  width: 100%;
+  border-radius: 10px;
+  /* border: 1px solid white; */
+  /* color: white; */
+  /* margin-top: -10px; */
+  /* margin-left: ; */
+  padding: 30px;
+  font-weight: 400px;
+  font-size: large;
+  background: none;
+  font-family: "Courier New", Courier, monospace;
+  /* background-color: transparent; */
+  color: white;
+  border-bottom: 1px solid grey;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  /* margin-top: 50px; */
+  /* border: 1px solid rgb(181, 167, 167); */
+  /* background-color: rgba(255,255,255,0.3); */
+}
+
+.bm {
+  margin-top: 30px;
+  background-color: rgb(85, 139, 210);
+  border-radius: 10px;
+  width: 100%;
+  height: 15%;
+}
+.er {
+  margin-top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  /* font-weight: 700px; */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(203, 60, 50);
+}
+
+@media (min-width: 768px) {
+  .translator-container {
+    height: 850px; /* Adjust height as needed */
+    max-width: 30%; /* Adjust width for larger screens */
+    width: 100%; /* Full width for smaller screens */
+    background-size: cover; /* Cover the container with the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    border-radius: 12%; /* Rounded corners */
+    backdrop-filter: blur(20px); /* Blur the background */
+    box-shadow: 10px 9px 98px -13px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    height: 850px;
+    width: 90%; /* Increased width for smaller screens */
+    max-width: 30%;
+    /* display: flex; */
+    margin: 3% auto;
+    /* border: 2px solid rgb(28, 27, 27); */
+    background-image: url("../images/FrameTranslate.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12%;
+    backdrop-filter: blur(20px);
+    box-shadow: 10px 9px 98px -13px rgba(0, 0, 0, 1);
+
+    box-sizing: border-box; /* Include padding and border in width and height */
+  }
+  .in {
+    padding: 100px;
+  }
+}
